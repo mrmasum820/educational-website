@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "courseTitle": "Physics",
+    "price": 5000,
+    "img": "https://scx2.b-cdn.net/gfx/news/2019/physics.jpg",
+    "mentor": "Masum Khan"
+  },
+  {
+    "id": 2,
+    "courseTitle": "Chemistry",
+    "price": 7000,
+    "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_0066f46bde.jpg",
+    "mentor": "Sadman Zaman"
+  },
+  {
+    "id": 3,
+    "courseTitle": "Biology",
+    "price": 6000,
+    "img": "http://images.shiksha.com/mediadata/images/articles/1538985491phpKctLgx.jpeg",
+    "mentor": "Shawan"
+  },
+  {
+    "id": 4,
+    "courseTitle": "Math",
+    "price": 10000,
+    "img": "https://ph-test-11.slatic.net/original/7d189f3b58ba141f33f5d7a72c063054.jpg",
+    "mentor": "Saiak Zakarea"
+  }
+]
