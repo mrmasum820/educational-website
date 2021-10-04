@@ -1,29 +1,17 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import "./Footer.css";
-import logo from "../../images/logo.png";
-
+import React from 'react';
+// this is for footer
 const Footer = () => {
-  return (
-    <div className="footer">
-      <div className="footer-top">
-        <Container>
-          <img className="logo" src={logo} alt="website logo" />
-          <p>
-            Recently updated for the 2021 tech market, "Become a Web Developer
-            from Scratch (2021 version)" is probably one of the most complete
-            and comprehensive online courses you will ever get to see covering
-            web development from top to bottom.
-          </p>
-        </Container>
-      </div>
-      <div className="footer-bottom">
-        <Container>
-          <p>Copyright - 2021 &copy; All Rights Reserved</p>
-        </Container>
-      </div>
-    </div>
-  );
+    
+    return (
+        <div className="mt-3 page-footer mx-auto bg-dark text-light p-5 ">
+          <h6 className="w-50 mx-auto text-center">
+            All teachers cherish the feeling: The thrill of inspiration that comes from  inspiring others. But whether it be writing report cards or managing the classroom,  daily stresses can make it hard to keep that inspiration alive.
+          </h6>
+          <h4 className="mx-auto text-center">
+            Copyright &copy; 2022. All Rights Reserved by MR Masum
+          </h4>
+        </div>
+    );
 };
 
 export default Footer;

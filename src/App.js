@@ -1,40 +1,60 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import NotFound from "./components/NotFound/NotFound";
-import Services from "./components/Services/Services";
-import Footer from "./components/Footer/Footer";
+import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Contact from './Components/Contact/Contact';
+import About from './Components/About/About';
+import Services from './Components/Services/Services';
+import NotFound from './Components/NotFound/NotFound';
+import Footer from './Components/Footer/Footer';
+import SeatBooking from './Components/SeatBooking/SeatBooking';
+import ConfirmAdmission from './Components/ConfirmAdmission/ConfirmAdmission';
+
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header></Header>
+    <div>
+      <BrowserRouter>
+        
         <Switch>
           <Route exact path="/">
-            <Home></Home>
+              <Header></Header>
+              <Home></Home>
+              <Footer></Footer>
           </Route>
           <Route path="/home">
-            <Home></Home>
+              <Header></Header>
+              <Home></Home>
+              <Footer></Footer>
           </Route>
           <Route path="/about">
-            <About></About>
+              <Header></Header>
+              <About></About>
+              <Footer></Footer>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/service">
+              <Header></Header>
+              <Services></Services>
+              <Footer></Footer>
           </Route>
           <Route path="/contact">
-            <Contact></Contact>
+              <Header></Header>
+              <Contact></Contact>
+              <Footer></Footer>
+          </Route>
+          <Route path="/seatBooking">
+               <SeatBooking></SeatBooking>
+          </Route>
+          <Route path="/confirmSeat">
+               <ConfirmAdmission></ConfirmAdmission>
           </Route>
           <Route path="*">
-            <NotFound></NotFound>
+             <NotFound></NotFound> 
           </Route>
         </Switch>
-        <Footer></Footer>
-      </Router>
+        
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,27 +1,17 @@
-import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
+import useServices from "../../hooks/useServices";
 import SingleService from "../SingleService/SingleService";
-import Slider from "../Slider/Slider";
-
+import SlideShow from "../SlideShow/SlideShow";
+// home page
 const Home = () => {
-  const [services, setServices] = useState([]);
-
-  useEffect(() => {
-    fetch("./miniService.JSON")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
-
+  const [services] = useServices();
   return (
     <div>
-      <Slider></Slider>
-      <Container className="my-5">
+      <SlideShow></SlideShow>
+      <Container>
         <Row xs={1} md={4} className="g-4">
-          {services.map((service) => (
-            <SingleService 
-                key = {service.id}
-                service={service}
-            ></SingleService>
+          {services.slice(0, 4).map((service) => (
+            <SingleService key={service.key} service={service}></SingleService>
           ))}
         </Row>
       </Container>
