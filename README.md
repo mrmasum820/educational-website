@@ -2,7 +2,7 @@
 - Project Name: Educational website.
 - Project Description: This project is for a education and teaching purpose, where student can know about the courses which are offered from the academic center.
 
-- Live link of the project().
+- Live link of the project(https://educational-website-bn.netlify.app/).
 
 - code link here(https://github.com/ProgrammingHeroWC4/review-website-mrmasum820)
 

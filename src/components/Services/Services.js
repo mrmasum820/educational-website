@@ -10,7 +10,7 @@ const Services = () => {
       <Container className="my-5">
         <Row xs={1} md={3} className="g-4">
           {services.map((service) => (
-            <SingleService key={service.key} service={service}></SingleService>
+            <SingleService key={service.id} service={service}></SingleService>
           ))}
         </Row>
       </Container>
