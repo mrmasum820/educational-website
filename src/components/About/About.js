@@ -6,37 +6,36 @@ import img from "../../images/teacher.jpg";
 const About = () => {
   return (
     <div>
-      <div className="d-lg-flex justify-content-evenly align-items-center mb-4">
-        <div className="w-50">
-          <h3 className="text-warning text-center">World Class Facilities</h3>
+      <div className="d-lg-flex justify-content-evenly align-items-center my-5 text-center">
+        <div className="w-md-50 mx-5 mx-md-2">
+          <h3 className="text-primary text-center">World Class Facilities</h3>
           <p className="fw-bold text-center">
             The concept of our coaching center consists of all programs of SSC
             and HSC in our academy.We have best teachers among the Dhaka
             city.They are so caring and want to teach student.{" "}
           </p>
         </div>
-        <div className="w-50">
-          <img width="500px" src={img} alt="" />
+        <div className="w-md-50">
+          <img className="w-75 mx-auto" src={img} alt="" />
         </div>
       </div>
       <div>
-        <h1 className="text-warning text-center">Testimonials about center</h1>
+        <h1 className="text-primary text-center mb-4">Testimonials about center</h1>
         <div className="d-lg-flex mb-4">
           <div className="border border-dark">
-            <p className="text-center">
+            <p className="text-center p-3">
               My younger son returns happy with all activites happening in your
-              center. He always share me how he learn a lot of things in easy
-              methods from your teachers.
+              center. He always share me how he learn a lot of methods from your teachers.
             </p>
-            <h3 className="text-primary fw-bold text-center">-Sheikh Sadi</h3>
+            <h4 className="text-primary text-center">-Shah Ali</h4>
           </div>
           <div className="border border-dark">
-            <p className="text-center">
+            <p className="text-center p-3">
               My brother used to fail in Chemistry always. But beacuse of your
               center's teaching method now he get 80% marks in each and every
               subject.We are so happy for him.
             </p>
-            <h3 className="text-primary fw-bold text-center">-Shayla</h3>
+            <h4 className="text-primary text-center">-Shayla Afrin</h4>
           </div>
         </div>
       </div>

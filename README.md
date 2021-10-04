@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Educational Website project
+Project Name: Educational website.
+Project Description: This project is for a education and teaching purpose, where student can know about the courses which are offered from the academic center.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Live link of the project().
+
+- code link here(https://github.com/ProgrammingHeroWC4/review-website-mrmasum820)
 
 ## Available Scripts
 

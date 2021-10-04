@@ -3,7 +3,7 @@ import img from '../../images/giphy.gif'
 
 const ConfirmAdmission = () => {
     return (
-        <div>
+        <div className="text-center">
             <img src={img} alt="" />
         </div>
     );
