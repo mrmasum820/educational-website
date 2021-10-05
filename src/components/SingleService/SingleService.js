@@ -19,7 +19,7 @@ const SingleService = (props) => {
             <Card.Title>Instructor:{mentor}</Card.Title>
             <Card.Text>Price:{price}</Card.Text>
             <Button onClick={handleSeatBooking} className="border-none">
-              Book your seat.
+              Book your seat
             </Button>
           </Card.Body>
         </Card>

@@ -3,50 +3,50 @@
       "id": 1,
       "courseTitle": "Physics",
       "price": 5000,
-      "img": "https://scx2.b-cdn.net/gfx/news/2019/physics.jpg",
-      "mentor": "Masum Khan"
+      "img": "https://leverageedu.com/blog/wp-content/uploads/2020/07/Branches-of-Physics-1.png",
+      "mentor": "Emrul H."
     },
     {
       "id": 2,
       "courseTitle": "Chemistry",
       "price": 7000,
-      "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_0066f46bde.jpg",
-      "mentor": "Sadman"
+      "img": "https://www.chem.ruet.ac.bd/public/storage/sliders/lab.jpg",
+      "mentor": " Zarin T."
     },
     {
       "id": 3,
       "courseTitle": "Biology",
       "price": 6000,
-      "img": "http://images.shiksha.com/mediadata/images/articles/1538985491phpKctLgx.jpeg",
-      "mentor": "Shawan"
+      "img": "https://t4.ftcdn.net/jpg/02/35/71/13/360_F_235711378_x8BsTR14c7Iu9myWbXVBk2DHf7dHsdgg.jpg",
+      "mentor": "Maria Kabir"
     },
     {
       "id": 4,
       "courseTitle": "G.Math",
-      "price": 10000,
-      "img": "https://ph-test-11.slatic.net/original/7d189f3b58ba141f33f5d7a72c063054.jpg",
-      "mentor": "Saiak Zakarea"
+      "price": 7000,
+      "img": "https://cdn.shopify.com/s/files/1/2512/3554/products/Excello_General_Mathematics_1024x1024.jpg",
+      "mentor": "MS Tutul"
     },
     {
       "id": 5,
       "courseTitle": "Higher Math",
       "price": 10000,
-      "img": "https://www.mathplanet.com/media/584568/mathplanet.png",
-      "mentor": "Saiak Zakarea"
+      "img": "https://bdexamresults.com/wp-content/uploads/2021/07/HSC-Higher-Mathematics-Assignment-Answer-2021.jpg",
+      "mentor": "Nigar Sultana"
     },
     {
       "id": 6,
       "courseTitle": "Bangla",
       "price": 3000,
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg/1200px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg.png",
-      "mentor": "Sadika"
+      "img": "https://thumbs.dreamstime.com/b/bengali-language-culture-concept-book-wooden-background-bengali-language-culture-concept-125502165.jpg",
+      "mentor": "Shakil Ahmad"
     },
     {
       "id": 7,
       "courseTitle": "Religion",
       "price": 3500,
-      "img": "https://miro.medium.com/max/1400/0*psEgrcYvhsP4goqx.png",
-      "mentor": "Kari Hafej Zakarea"
+      "img": "https://www.infobooks.org/wp-content/uploads/2021/04/Religion-Books.jpg",
+      "mentor": "Golam Morshed"
     },
     {
       "id": 8,
@@ -58,29 +58,29 @@
     {
       "id": 9,
       "courseTitle": "Finance",
-      "price": 1500,
-      "img": "https://www.frevvo.com/blog/wp-content/uploads/2020/01/Frevvo-Improve-Finance-hero-1000x528.png",
+      "price": 4500,
+      "img": "https://media.istockphoto.com/photos/colorful-books-of-finance-picture-id859913710",
       "mentor": "Goribullah"
     },
     {
       "id": 10,
       "courseTitle": "Marketing",
-      "price": 2500,
-      "img": "https://cdn.corporatefinanceinstitute.com/assets/marketing.jpeg",
-      "mentor": "Sifatullah"
+      "price": 3500,
+      "img": "https://marketinginsidergroup.com/wp-content/uploads/2019/04/iStock-1279738776.jpg",
+      "mentor": "Nasrin Akter"
     },
     {
       "id": 11,
       "courseTitle": "Accounting",
-      "price": 2500,
-      "img": "https://www.oracle.com/oce/press/assets/CONT6B6B74E125DE417D8F81599F681D632E/native/rc24-accounting.jpg",
-      "mentor": "Sajidujjaman"
+      "price": 5000,
+      "img": "https://mk0inaagroupvg9sypw4.kinstacdn.com/wp-content/uploads/2021/07/header-future-accounting.jpg",
+      "mentor": "Raihan Karim"
     },
     {
       "id": 12,
       "courseTitle": "Drawing",
-      "price": 5500,
-      "img": "https://archziner.com/wp-content/uploads/2019/07/colourful-anime-characters-split-drawing-anime-boy-drawing-1.jpg",
-      "mentor": "Disha Fokirni"
+      "price": 3000,
+      "img": "https://img.gurugamer.com/resize/720x480/2020/11/25/free-fire-dj-alok-drawing-babd.jpg",
+      "mentor": "Sadia Afrin"
     }
   ]

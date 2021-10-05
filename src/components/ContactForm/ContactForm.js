@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <div className="mt-4">
       <h1 className="text-primary text-center">Contact Me</h1>
-      <Form className="w-50 mx-auto mb-2">
+      <Form className="w-75 mx-auto mb-2">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Your Name</Form.Label>
           <Form.Control type="email" placeholder="Type Your Name" />
