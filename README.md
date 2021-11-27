@@ -4,7 +4,7 @@
 
 - Live link of the project(https://educational-website-bn.netlify.app/)
 
-- code link here(https://github.com/ProgrammingHeroWC4/review-website-mrmasum820)
+- code link here(https://github.com/mrmasum820/educational-website)
 
 ## Available Scripts
 
